@@ -1,0 +1,123 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "HelveticaHeavy";
+	font-size: 16px;
+   background-image: url(../images/black.png); 
+}
+.container-fluid {overflow: hidden;}
+.top_blok {margin: 45px 0px;overflow: hidden;}
+.logo {float: left;}
+.logo:hover{box-shadow: 0px 0px 18px 0px #000000;}
+.nav-menu ul li{ display: inline-block;margin: 0px 10px;float: right;}
+.nav-menu ul a {color:#fff;font-weight: bold;display: block;width: 90px;text-align: center;}
+
+
+.nav-menu ul a:hover{background-color: black;border-radius: 5px;}
+.nav-menu ul a:hover { box-shadow: 0px 18px 36px 0px #000000;}
+
+
+
+.title {text-align: center;margin: 60px 0px 30px 0px;color: #fff;font-size: 32px;font-style: italic;}
+.text { font-size: 28px;color: #6b96a8;text-align: center;margin-bottom: 40px;}
+
+.sider_container img{max-width: 100%;}
+.sider_container {position: relative;}
+.next_button,
+.prev_button { color:#fff; font-size: 46px;position: absolute;z-index: 10;cursor: pointer;top:25%;}
+.next_button {right: 0%;}
+.prev_button {left: 0%;}
+
+#bord {overflow: hidden; border:1px dashed #434343;background-image: url(/images/black.png);}
+.side_blok {width: 60%;float: left;margin-bottom: 10px;}
+.side_text {float: left;color:#777777;width: 50%;margin: 30px 0px 0px 0px}
+.side_blok img {float:left;}
+.side_text p{float: left;width:75%;font-size:0.85em;margin: 0px 0px 0px 10px;}
+.side_text h3 {font-size:80%; color: #f1eee5;float: left;margin: 5px 0px 0px 10px;}
+
+.last_blok {color: #777777;width:40%;float:left;font-size: 0.85em;margin: 20px 0px 0px 0px;}
+.last_blok h3 {color: #f1eee5;font-size: 100%;}
+.last_blok button {margin: 10px 0px 10px 0px;background-color:#e6c759;border-radius:20px;height: 40px;width: 140px;}
+.last_blok button:hover{ box-shadow: 1px 1px 7px 3px #ddd;}
+.last_blok a {color:black;}
+.last_blok p {font-size: 14px;width: 72%;}
+
+
+.content_blok {background-color: #f2f0eb;}
+.content_blok p {font-size: 16px;text-transform:uppercase;}
+.content_blok h3 {color: #696867;}
+.right_blok p {font-size: 14px;text-transform:uppercase;width:76%;color:#696867;}
+.right_blok img {margin:-10px 0px 0px -5px;width: 70%;}
+.center_blok img {width: 70%;}
+.text_blok {color: #888888;margin:15px 0px;background-color: #efece5;border-radius: 4px;font-size: 12px;width:70%;text-align: center;}
+.right {margin-top:14px;}
+
+.callout {background-color: #fff; border: 1px solid #ddd;width: 100%;float: left;}
+.callout h3 {width: 60%;font-size: 16px;margin: 10px 0px;float: left;}
+.callout p {width:71%;font-size: 11px;margin: 10px 0px;float: left;}
+
+.callout button {color: black; font-size:100%; background-color:#e6c759;border-radius:20px;height: 40px;width: 240px;float: left;}
+.callout button:hover{box-shadow: 1px 1px 20px 3px #000000;}
+
+#blog {width: 70%}
+.blog {margin:20px 1px;}
+.blog img{float:left;}
+.blog span {font-size:12px;display: block;}
+.blog p{font-size: 9px;display: block;width: 220px;font-style: italic;color: #9e9e9d;}
+.blog {border-bottom: 2px solid #e4e1d9;}
+
+#tweet {}
+.tweet {  margin-bottom: 20px;}
+.tweet a {border-bottom: 2px solid #e4e1d9;}
+.tweet {font-size: 12px;}
+.tweet p{font-size: 9px;font-style: italic;color: #9e9e9d;}
+.tweet {border-bottom: 2px solid #e4e1d9;}
+
+#testimonials {}
+.testim_blok img {float: left;}
+.testim_blok span{font-size: 12px;display: block;margin: 0px 60px;}
+.text_test {margin: 20px 0px;font-style: italic;font-size: 12px;width:70%;}
+
+#footer {background-image: url(/images/black.png);height: auto;}
+.contact h3 {color: #fff;font-size: 14px;}
+.contact span {color:#777777;font-size: 14px;}
+.contact p {color: #777777;font-size: 14px;}
+.contact .mail {color: #fff;margin-right: 20px;}
+.contact .mail:hover{text-decoration: underline;}
+
+.inbox {position: relative;}
+.inbox h3 {font-size: 14px;color: #fff;}
+.inbox span {color: #777;font-size: 14px;width: 80%;display: block;}
+.inbox input {position:absolute; background-color: black;font-size: 12px;padding: 7px;border-radius: 10px;}
+.inbox input:hover{box-shadow: 1px 1px 7px 3px #fff;}
+.inbox button {position:relative;padding: 2px;border-radius: 8px;font-size: 12px;left: 175px;top: 5px;font-weight: bold;}
+
+#footer_copyright {background-color: black;}
+.copyright {font-size: 12px;color: #777;}
+.copyright span {color: #fff;}
+
+.powered {font-size: 12px;color: #777;}
+.powered span {color: #fff;}
